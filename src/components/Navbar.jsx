@@ -24,24 +24,37 @@ function BasicExample() {
   return (
     <Navbar bg="transparent" expand="lg">
       <Container>
-        <Navbar.Brand href="/" className="fw-bold text-success">
-          <IoCall size={25} className="me-2" /> Power Dialer
+        <Navbar.Brand
+          href="/"
+          className="fw-bold "
+          style={{ color: "#19A7CE" }}
+        >
+          <img src="/logo.png" alt="" width={120} />
+          PROSPIRE
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto ms-auto fw-bold text-success ">
-            <Nav.Link href="/" className="text-success">
-              Home
+          <Nav className="me-auto ms-auto fw-bold  ">
+            <Nav.Link href="/" style={{ color: "#19A7CE" }} className="me-2">
+              HOME
             </Nav.Link>
-            <Nav.Link href="/about" className="text-success">
-              About Us
+            <Nav.Link
+              href="/about"
+              style={{ color: "#19A7CE" }}
+              className="me-2"
+            >
+              ABOUT US
             </Nav.Link>
-            <Nav.Link href="/privacy-policy" className="text-success">
-              Privacy Policy
+            <Nav.Link
+              href="/privacy-policy"
+              style={{ color: "#19A7CE" }}
+              className="me-2"
+            >
+              PRIVACY POLICY
             </Nav.Link>
           </Nav>
-          <Nav.Link className="text-success" onClick={handleLogout}>
-            <BiLogOut size={25} />
+          <Nav.Link onClick={handleLogout} style={{ color: "#19A7CE" }}>
+            <BiLogOut size={30} />
           </Nav.Link>
         </Navbar.Collapse>
       </Container>

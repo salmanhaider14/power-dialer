@@ -16,7 +16,7 @@ const AboutUs = () => {
             <h1 className="mb-4">About Us</h1>
 
             <p>
-              Welcome to <strong>the Power Dialer</strong>! We are dedicated to
+              Welcome to <strong>PROSPIRE</strong>! We are dedicated to
               revolutionizing the way businesses execute cold calling and manage
               their customer relationships. Our powerful and user-friendly power
               dialer application is designed to help you maximize your
@@ -67,12 +67,12 @@ const AboutUs = () => {
               user-centric power dialer solution. We are continuously improving
               our application, incorporating user feedback, and staying up to
               date with industry trends to meet your evolving needs. Take your
-              cold calling game to the next level with{" "}
-              <strong>Power Dialer</strong>. Experience the power of increased
-              productivity, streamlined calling, and enhanced customer
-              relationship management. Join us today and unlock the potential of
-              your sales efforts. Welcome to a new era of efficient and
-              effective cold calling with <strong>Power Dialer</strong>!
+              cold calling game to the next level with <strong>PROSPIRE</strong>
+              . Experience the power of increased productivity, streamlined
+              calling, and enhanced customer relationship management. Join us
+              today and unlock the potential of your sales efforts. Welcome to a
+              new era of efficient and effective cold calling with{" "}
+              <strong>PROSPIRE</strong>!
             </p>
           </Col>
         </Row>

@@ -46,7 +46,10 @@ const Register = () => {
         style={{ minHeight: "100vh" }}
       >
         <div className="w-100" style={{ maxWidth: "400px" }}>
-          <h1 className="mb-4">Register Here!!!</h1>
+          <img src="/logo.png" alt="" width={300} />
+          <h1 className="mb-4" style={{ color: "#19A7CE" }}>
+            REGISTER
+          </h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group>
               <Form.Label>
@@ -57,6 +60,7 @@ const Register = () => {
                 id="username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
+                className="mb-2"
               />
             </Form.Group>
             <Form.Group>
@@ -68,6 +72,7 @@ const Register = () => {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                className="mb-2"
               />
             </Form.Group>
             <Form.Group>
@@ -79,6 +84,7 @@ const Register = () => {
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
+                className="mb-2"
               />
             </Form.Group>
             <Form.Group>
@@ -97,7 +103,12 @@ const Register = () => {
               </Link>
             </p>
             {errors && <div className="alert alert-danger">{errors}</div>}
-            <Button type="submit" variant="primary " className="w-50 h-100 ">
+            <Button
+              type="submit"
+              variant="info "
+              size="lg"
+              className="w-50 h-100 "
+            >
               Register
             </Button>
           </Form>

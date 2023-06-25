@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -7,6 +7,7 @@ import Pagination from "react-bootstrap/Pagination";
 import { MdDelete, MdCall } from "react-icons/md";
 import CallModal from "./CallModal";
 import "./style.css";
+import { FcContacts } from "react-icons/fc";
 
 const ContactImporter = ({ onSave }) => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -16,8 +17,15 @@ const ContactImporter = ({ onSave }) => {
   const [contactsPerPage, setContactsPerPage] = useState(10);
   const [modalShow, setModalShow] = useState(false);
   const [selectedContact, setSelectedContact] = useState(null);
+  const [uploadedFileName, setUploadedFileName] = useState("");
+  const inputRef = useRef(null);
 
+  const handleUpload = () => {
+    inputRef.current?.click();
+  };
   const handleFileChange = (e) => {
+    inputRef.current?.files &&
+      setUploadedFileName(inputRef.current.files[0].name);
     setSelectedFile(e.target.files[0]);
   };
 
@@ -113,9 +121,20 @@ const ContactImporter = ({ onSave }) => {
             <Form.Control
               type="file"
               accept=".json,.csv"
+              ref={inputRef}
               onChange={handleFileChange}
+              hidden
             />
           </Form.Group>
+          <div
+            style={{ cursor: "pointer" }}
+            className="fw-semibold"
+            onClick={handleUpload}
+          >
+            <FcContacts size={70} />{" "}
+            {uploadedFileName ? uploadedFileName : "Upload"}
+          </div>
+
           <Button variant="dark" onClick={handleImport} className="mt-3">
             Import Contacts
           </Button>

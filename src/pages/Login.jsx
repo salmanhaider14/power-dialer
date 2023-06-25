@@ -40,8 +40,13 @@ const Login = () => {
         className="d-flex align-items-center justify-content-center Home"
         style={{ minHeight: "100vh" }}
       >
+        {" "}
         <div className="w-100" style={{ maxWidth: "400px" }}>
-          <h1 className="mb-4">Power Dialer Login</h1>
+          <img src="/logo.png" alt="" width={300} />
+          <h1 className="mb-4" style={{ color: "#19A7CE" }}>
+            {" "}
+            LOGIN
+          </h1>
           <Form onSubmit={handleSubmit}>
             <Form.Group>
               <Form.Label>
@@ -49,7 +54,7 @@ const Login = () => {
               </Form.Label>
               <Form.Control
                 type="email"
-                className="form-control"
+                className="form-control mb-3"
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -58,11 +63,11 @@ const Login = () => {
             <Form.Group>
               <Form.Label>
                 {" "}
-                <AiOutlineKey color="black" size={20} /> EmailPassword
+                <AiOutlineKey color="black" size={20} /> Password
               </Form.Label>
               <Form.Control
                 type="password"
-                className="form-control"
+                className="form-control mb-3"
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -75,7 +80,12 @@ const Login = () => {
               </Link>
             </p>
             {errors && <div className="alert alert-danger">{errors}</div>}
-            <Button type="submit" className="btn btn-primary w-50 h-100 ">
+            <Button
+              type="submit"
+              variant="info"
+              size="lg"
+              className="w-50 h-100 "
+            >
               Login
             </Button>
           </Form>

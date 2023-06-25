@@ -14,18 +14,17 @@ const PrivacyPolicy = () => {
             <h1 className="mb-4">Privacy Policy</h1>
 
             <p>
-              At [Your Company Name], we are committed to protecting your
-              privacy and ensuring the security of your personal information.
-              This Privacy Policy outlines how we collect, use, and protect the
-              information you provide to us when using [Your Power Dialer App
-              Name].
+              At PROSPIRE, we are committed to protecting your privacy and
+              ensuring the security of your personal information. This Privacy
+              Policy outlines how we collect, use, and protect the information
+              you provide to us when using PROSPIRE.
             </p>
 
             <h2>Information We Collect</h2>
 
             <p>
-              When you use [Your Power Dialer App Name], we may collect the
-              following types of information:
+              When you use PROSPIRE, we may collect the following types of
+              information:
             </p>
 
             <ul>
@@ -42,14 +41,13 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 <strong>Device Information:</strong> We may collect information
-                about the device you use to access [Your Power Dialer App Name],
-                such as your device type, operating system, and browser
-                information.
+                about the device you use to access PROSPIRE, such as your device
+                type, operating system, and browser information.
               </li>
               <li>
                 <strong>Log Data:</strong> Our servers automatically record
-                certain information when you use [Your Power Dialer App Name],
-                including your IP address, app usage data, and crash reports.
+                certain information when you use PROSPIRE, including your IP
+                address, app usage data, and crash reports.
               </li>
             </ul>
 
@@ -61,9 +59,9 @@ const PrivacyPolicy = () => {
 
             <ul>
               <li>
-                To provide and improve [Your Power Dialer App Name], including
-                personalizing your experience, enhancing app features, and
-                optimizing app performance.
+                To provide and improve PROSPIRE, including personalizing your
+                experience, enhancing app features, and optimizing app
+                performance.
               </li>
               <li>
                 To communicate with you, respond to your inquiries, and provide
@@ -71,7 +69,7 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 To send you important updates, notifications, and promotional
-                materials related to [Your Power Dialer App Name].
+                materials related to PROSPIRE.
               </li>
               <li>
                 To analyze app usage patterns, monitor app performance, and
@@ -79,7 +77,7 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 To enforce our terms of service and protect the rights,
-                property, and safety of [Your Company Name] and its users.
+                property, and safety of PROSPIRE and its users.
               </li>
             </ul>
 
@@ -97,15 +95,15 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 With our trusted service providers and business partners who
-                assist us in operating [Your Power Dialer App Name] and
-                delivering our services to you. These third-party providers are
-                bound by strict confidentiality agreements and are prohibited
-                from using your personal information for any other purposes.
+                assist us in operating PROSPIRE and delivering our services to
+                you. These third-party providers are bound by strict
+                confidentiality agreements and are prohibited from using your
+                personal information for any other purposes.
               </li>
               <li>
                 When required by law, legal process, or government request, or
-                to protect the rights, property, or safety of [Your Company
-                Name], its users, or others.
+                to protect the rights, property, or safety of PROSPIRE, its
+                users, or others.
               </li>
             </ul>
 
@@ -122,12 +120,11 @@ const PrivacyPolicy = () => {
             <h2>Children's Privacy</h2>
 
             <p>
-              [Your Power Dialer App Name] is not intended for use by
-              individuals under the age of 13. We do not knowingly collect
-              personal information from children under 13. If you become aware
-              that your child has provided us with personal information without
-              your consent, please contact us, and we will promptly delete the
-              information from our records.
+              PROSPIRE is not intended for use by individuals under the age of
+              13. We do not knowingly collect personal information from children
+              under 13. If you become aware that your child has provided us with
+              personal information without your consent, please contact us, and
+              we will promptly delete the information from our records.
             </p>
 
             <h2>Changes to this Privacy Policy</h2>
@@ -135,17 +132,16 @@ const PrivacyPolicy = () => {
             <p>
               We may update this Privacy Policy from time to time. Any changes
               we make will be posted on this page, and we will notify you of any
-              significant changes by email or through [Your Power Dialer App
-              Name]. We encourage you to review this Privacy Policy periodically
-              for any updates.
+              significant changes by email or through PROSPIRE. We encourage you
+              to review this Privacy Policy periodically for any updates.
             </p>
 
             <h2>Contact Us</h2>
 
             <p>
               If you have any questions, concerns, or requests regarding this
-              Privacy Policy or the privacy practices of [Your Company Name],
-              please contact us at [contact email/phone].
+              Privacy Policy or the privacy practices of PROSPIRE, please
+              contact us at [contact email/phone].
             </p>
           </Col>
         </Row>
